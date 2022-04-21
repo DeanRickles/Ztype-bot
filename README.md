@@ -8,33 +8,42 @@ Script to automate playing Ztype on the screen.
 Key:
 ```
 - = Planned
-* = Completed
+○ = Completed
 | = On-hold
 x = Scrapped
 ```
 
 ToDo:
 ```
-* Get text from screen. (Using B/W with colour mask.
+○ Get text from screen. (Using B/W with colour mask.)
+    - Rename to package to AlterImage
 
-* Ignore Text from the bottom of screen. ("Type the words to hoot!" & "ENTER for EMP")
+- Readword.
+    - OCR on screen.
+    - place strings into list.
 
-- Read each word.
-    - OCR on screen
-    
-- CaptureScreen
-    - set detection area
-    - take screenshots of area
+- Ignore Text from the bottom of screen. ("Type the words to hoot!" & "ENTER for EMP")
 
--- Type Words
-    - closes first?
+- CaptureGame live on screen.
+    - set detection area.
+    - detected words into List type.
+        - Compare with typing out current list vs scanning after each word.
+
+- TypeWord(string list input)
+    - closes first or smallest.
     - type word.
+    - check if there is a spelling error or miss type.
+    
+- Testing
+    - each package as a module.
+    - Docker enviroment (for consistancy.)
+    - Misc workstations
 ```
 
 # Perosnal Note
 
 ```
-I'm using this project to learn what OpenCV can do, and become a Ztype winner.
-
-I forsee this project to go over a number of iterations.
+• I'm using this project to learn what OpenCV can do, and become a Ztype winner.
+• I forsee this project to go over a number of iterations.
+• Do I add the time each time a Todo is completed?
 ```
