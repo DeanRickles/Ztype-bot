@@ -6,16 +6,16 @@ Script to automate playing Ztype on the screen.
 # To Do:
 
 Key:
-```
+```diff 
 - = Planned
-○ = Completed
++ = Completed
 | = On-hold
 x = Scrapped
 ```
 
 ToDo:
-```
-○ Get text from screen. (Using B/W with colour mask.)
+```diff
++ Get text from screen. (Using B/W with colour mask.)
     - Rename to package to AlterImage
 
 - Readword.
