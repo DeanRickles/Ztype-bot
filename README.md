@@ -1,49 +1,67 @@
 # Ztype with OpenCV
-```
+
 Script to automate playing Ztype on the screen.
-```
 
-# To Do:
+---
 
-Key:
-```diff 
-- = Planned
-+ = Completed
-| = On-hold
-x = Scrapped
-```
+## To Do:
 
-ToDo:
-```diff
-+ Get text from screen. (Using B/W with colour mask.)
-    - Rename to package to AlterImage
+    Loose idea to keep on track.
 
-- Readword.
-    - OCR on screen.
-    - place strings into list.
 
-- Ignore Text from the bottom of screen. ("Type the words to hoot!" & "ENTER for EMP")
 
-- CaptureGame live on screen.
-    - set detection area.
-    - detected words into List type.
-        - Compare with typing out current list vs scanning after each word.
+v0.1 - 30/06/2022
 
-- TypeWord(string list input)
-    - closes first or smallest.
-    - type word.
-    - check if there is a spelling error or miss type.
-    
-- Testing
-    - each package as a module.
-    - Docker enviroment (for consistancy.)
-    - Misc workstations
-```
+* [x] Capture Screen frame
 
-# Perosnal Note
 
-```
-• I'm using this project to learn what OpenCV can do, and become a Ztype winner.
-• I forsee this project to go over a number of iterations.
-• Do I add the time each time a Todo is completed?
-```
+v0.2 - 30/06/2022
+
+* [x] Get X and Y on frame image
+
+v0.3 - 30/06/2022
+
+* [x] Capture area on screen
+
+
+v0.4
+
+* [ ] Mask frame
+    * [ ] White
+    * [ ] Orange
+* [ ] Debug option
+* [ ] Class framework review
+
+
+v0.5
+
+* [ ] Get Frame text
+    * [ ] OCR
+    * [ ] Dictionary Validation option
+        * [ ] White Text only
+
+
+v0.6
+
+* [ ] Type words
+* [ ] Type Logic
+    * [ ] Detect orange words before White words
+    * [ ] Priorities Closes to futhest
+    * [ ] Priorities largest word to smalest.
+    * [ ] instant select single characters.
+
+
+v0.7
+
+* [ ] Record progress
+    * [ ] Screenshot
+    * [ ] Image text scrape into textfile.
+
+---
+
+
+# Perosnal Comment
+
+    I'm using this project to learn what OpenCV can do, and become a Ztype winner.
+    I forsee this project to go over a number of iterations.
+    Do I add the time each time a Todo is completed?
